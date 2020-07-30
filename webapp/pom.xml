@@ -56,7 +56,7 @@
       <plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
-    <version>${jacoco.versigit add *on}</version>
+    <version>${jacoco.version}</version>
     <configuration>
         <skip>${maven.test.skip}</skip>
         <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
